@@ -8,14 +8,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/qor/admin"
-	"github.com/qor/media"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/media"
+	"github.com/kisrobot/qor"
+	"github.com/kisrobot/qor/resource"
 )
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/seo/views")
+	admin.RegisterViewPath("github.com/kisrobot/seo/views")
 }
 
 // New initialize a SeoCollection instance
